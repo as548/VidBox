@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
-    <Container maxW={"container.xl"} h={"100vh"} p={"16"} overflowY={'auto'}>
+    <Container maxW={"container.xl"} h={"140vh"} p={"16"}>
 
       <form action="">
-        <VStack alignItems={"stretch"} spacing={"8"} w={['full' ,'96']} m={"auto"} my={"16"} overflowY={'auto'}>
+        <VStack alignItems={"stretch"} spacing={"8"} w={['full' ,'96']} m={"auto"} my={"16"}>
            
            <Heading alignSelf={'center'}>VIDBOX</Heading>
             <Avatar alignSelf={'center'} boxSize={'32'} />
