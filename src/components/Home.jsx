@@ -23,7 +23,7 @@ const Home = () => {
     <Box>
        <MyCarousel />
 
-       <Container maxW={'container.xl'} minH={'100vh'} p={"16"}>
+       <Container maxW={'container.xl'} minH={['80vh','100vh']} p={"16"}>
         <Heading textTransform={"uppercase"} py={"2"} w={"fit-content"} borderBottom={"2px solid"} m={"auto"}>Services</Heading>
         <Stack 
         h={"full"}
